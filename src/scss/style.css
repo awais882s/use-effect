@@ -1,0 +1,28 @@
+footer {
+  background-color: black;
+  height: 40px;
+}
+footer p {
+  margin: 0;
+}
+footer p,
+footer a {
+  text-align: center;
+  line-height: 40px;
+  color: pink;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+#root main {
+  flex: 1 0 auto;
+}/*# sourceMappingURL=style.css.map */
