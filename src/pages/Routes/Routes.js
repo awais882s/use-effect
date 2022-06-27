@@ -26,8 +26,6 @@ export default function Routing() {
                 </main>
                 <Footer />
             </BrowserRouter>
-
-
         </>
     )
 }
