@@ -1,13 +1,8 @@
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
+import Routes from "./pages/Routes/Routes";
 function App() {
   return (
     <>
-      <Header />
-      <main>
-
-      </main>
-      <Footer />
+      <Routes />
     </>
   );
 }
