@@ -28,10 +28,10 @@ export default function Header() {
                                     Hooks
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="void:()">useState</a></li>
-                                    <li><a class="dropdown-item" href="void:()">UseEffect</a></li>
+                                    <li><Link to="/hooks/useState" class="dropdown-item" href="void:()">useState</Link></li>
+                                    <li><Link to="/hooks/useEffect" class="dropdown-item" href="void:()">UseEffect</Link></li>
                                     <li><hr class="dropdown-divider" /></li>
-                                    <li><a class="dropdown-item" href="void:()">use Reducer </a></li>
+                                    <li><Link to="/hooks/useReducer" class="dropdown-item" href="void:()">use Reducer  </Link></li>
                                 </ul>
                             </li>
                         </ul>
