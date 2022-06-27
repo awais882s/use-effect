@@ -18,7 +18,7 @@ export default function Routing() {
                         <Route path='/' element={<Home />} />
                         <Route path='login' element={<Login />} />
                         <Route path='contact' element={<Contact />} />
-                        <Route path='ablout' element={<About />} />
+                        <Route path='about' element={<About />} />
 
 
                     </Routes>
