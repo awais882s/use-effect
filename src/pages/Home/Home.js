@@ -1,7 +1,15 @@
 import React from 'react'
-
+import About from '../About/About'
+import Contact from '../Contact/Contact'
+import Login from '../Login/Login'
 export default function Home() {
-  return (
-    <div>Home</div>
-  )
+
+    return (
+        <>
+            <About />
+            <Contact />
+            <Login />
+        </>
+
+    )
 }
