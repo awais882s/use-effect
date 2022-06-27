@@ -28,7 +28,7 @@ export default function Header() {
                                     Hooks
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><Link to="/hooks/useState" class="dropdown-item" href="void:()">useState</Link></li>
+                                    <li><Link to="/hooks/useStates" class="dropdown-item" href="void:()">useState</Link></li>
                                     <li><Link to="/hooks/useEffect" class="dropdown-item" href="void:()">UseEffect</Link></li>
                                     <li><hr class="dropdown-divider" /></li>
                                     <li><Link to="/hooks/useReducer" class="dropdown-item" href="void:()">use Reducer  </Link></li>
