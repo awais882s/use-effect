@@ -1,8 +1,8 @@
-import Routes from "./pages/Routes/Routes";
+import Routing from "./pages/Routes/Routes";
 function App() {
   return (
     <>
-      <Routes />
+      <Routing />
     </>
   );
 }
