@@ -20,9 +20,7 @@ export default function Routing() {
                         <Route path='login' element={<Login />} />
                         <Route path='contact' element={<Contact />} />
                         <Route path='about' element={<About />} />
-                        <Route path="*" element={<Nopage  />} />
-
-
+                        <Route path="*" element={<Nopage />} />
                     </Routes>
                 </main>
                 <Footer />
