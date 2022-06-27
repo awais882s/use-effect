@@ -7,10 +7,9 @@ import Footer from '../../components/Footer/Footer';
 import About from '../About/About';
 import Contact from '../contact/Contact';
 import Login from '../Login/Login';
-import Hook from "../Hooks/useState";
 import Nopage from '../Login/Nopage';
+import Hook from "../Hooks/Hook";
 export default function Routing() {
-
     return (
         <>
             <BrowserRouter>
@@ -21,7 +20,7 @@ export default function Routing() {
                         <Route path='login' element={<Login />} />
                         <Route path='contact' element={<Contact />} />
                         <Route path='about' element={<About />} />
-                        <Route path='/hooks/useState' element={<Hook />} />
+                        <Route path='/hooks/useStates' element={<Hook />} />
                         <Route path="*" element={<Nopage />} />
                     </Routes>
                 </main>

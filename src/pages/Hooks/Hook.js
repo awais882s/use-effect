@@ -1,7 +1,6 @@
-import React from 'react'
-
-export default function hook() {
-
+import React  from 'react'
+export default function Hook() {
+    // const [count] = useState()
     return (
 
         <div className="container py-5">
@@ -11,8 +10,9 @@ export default function hook() {
 
                 </div>
             </div>
-            <div className="row mt-4">
+            <div className="row mt-4 text-center">
                 <div className="col">
+                    <button className='btn btn-success'>Increment</button>
 
                 </div>
             </div>
