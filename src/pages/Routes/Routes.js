@@ -7,6 +7,7 @@ import Footer from '../../components/Footer/Footer';
 import About from '../About/About';
 import Contact from '../contact/Contact';
 import Login from '../Login/Login';
+import Hook from "../Hooks/Hook";
 import Nopage from '../Login/Nopage';
 export default function Routing() {
 
@@ -20,6 +21,7 @@ export default function Routing() {
                         <Route path='login' element={<Login />} />
                         <Route path='contact' element={<Contact />} />
                         <Route path='about' element={<About />} />
+                        <Route path='/hooks/useState' element={<Hook />} />
                         <Route path="*" element={<Nopage />} />
                     </Routes>
                 </main>

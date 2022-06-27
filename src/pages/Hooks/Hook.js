@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function useState() {
+export default function hook() {
 
     return (
         <>
