@@ -24,6 +24,18 @@ export default function Header() {
                             <li class="nav-item">
                                 <Link to="/contact" className='nav-link'>Contact</Link>
                             </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="void:()" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Hooks
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="void:()">useState</a></li>
+                                    <li><a class="dropdown-item" href="void:()">Another action</a></li>
+                                    <li><hr class="dropdown-divider" /></li>
+                                    <li><a class="dropdown-item" href="void:()">Something else here</a></li>
+                                </ul>
+                            </li>
+
                         </ul>
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
