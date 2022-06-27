@@ -2,7 +2,7 @@
 function App() {
   return (
     <div className="App">
-      <h1>use effect</h1>
+      <h1>Learning Router</h1>
     </div>
   );
 }
