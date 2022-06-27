@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 export default function Header() {
-
     return (
         <>
             <nav class="navbar navbar-expand-lg  " style={{ backgroundColor: '#e3f2fd', }}>
@@ -30,12 +29,11 @@ export default function Header() {
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="void:()">useState</a></li>
-                                    <li><a class="dropdown-item" href="void:()">Another action</a></li>
+                                    <li><a class="dropdown-item" href="void:()">UseEffect</a></li>
                                     <li><hr class="dropdown-divider" /></li>
-                                    <li><a class="dropdown-item" href="void:()">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="void:()">use Reducer </a></li>
                                 </ul>
                             </li>
-
                         </ul>
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
@@ -45,6 +43,5 @@ export default function Header() {
                 </div>
             </nav>
         </>
-
     )
 }
