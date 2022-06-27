@@ -13,7 +13,7 @@ export default function Routing() {
         <>
             <BrowserRouter>
                 <Header />
-                <ma in>
+                <main>
                     <Routes>
                         <Route path='/' element={<Home />} />
                         <Route path='login' element={<Login />} />
@@ -22,7 +22,7 @@ export default function Routing() {
 
 
                     </Routes>
-                </ma>
+                </main>
                 <Footer />
             </BrowserRouter>
 
